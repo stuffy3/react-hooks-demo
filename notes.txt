@@ -1,0 +1,17 @@
+Why Hooks
+    Don't need classes so you don't need to bind anything
+    No particular way to reuse stateful component logic
+    HOC and render props patterns do not address the problem
+    Makes code harder to follow
+    Better wat to share stateful logic
+    create components for complex scenarios such as data fetching and subscribing to events
+    Datafetching used componentDidMount and componentDidUpdate
+    Event listeners used componentDidMount and componentWillMount
+Summary
+    Use react features without having to write classes
+    avoid using and confusing the 'this' keyword
+    allow you to reuse stateful logic
+    Organize the logic inside a component into reusavle isolated units
+
+UseState() 
+    counter example
